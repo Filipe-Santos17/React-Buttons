@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer components {
+  /* .container {
+    @apply flex flex-col w-[1600px] mx-auto;
+  } */
+
+  .title {
+    @apply font-bold tracking-tighter text-4xl leading-9 font-normal text-black my-8;
+  }
+}
